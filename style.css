@@ -1,0 +1,50 @@
+
+#logo{
+        width: 40px;
+        height: 40px;
+}
+div{
+    background-color: #1b1b1b;
+}
+
+#register{
+ float: right;
+
+}
+img{
+
+    width: 100%;
+
+}
+a{
+font-family: Saira;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+padding-bottom: 10px;
+text-align: center;
+color: white;
+}
+a:hover{
+   color: #EDAB03;
+   border-bottom:  3px solid #EDAB03;
+    text-decoration: none;
+  
+}
+p,h1    {
+color: white;
+
+}
+p1{
+    
+font-family: Saira;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+}
+h1{
+
+    padding-bottom: 20px;
+}
