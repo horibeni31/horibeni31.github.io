@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
 
     <meta charset="UTF-8">
@@ -13,49 +14,71 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-1 m-auto" style="background-color: #0B0B0B;">
 
 
-        <div class="row p-3" id="navbar">
-            <div class="col-sm-1 "> <img id="logo" src="logo.png" alt="couldn't load" /> </div>
-            <div class="col-sm-1"> <a href="#">Play</a></div>
-            <div class="col-sm-1"> <a href="#">EWES</a></div>
-            <div class="col-sm-8"> <a href="#">About</a></div>
-            <div class="col-sm-1">
-                <a id="register" href="#">Register</a>
+        <nav class="navbar navbar-expand-lg bg-black m-0 p-2">
+
+
+            <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo" style="width:40px;">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Play</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EWES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About </a>
+                </li>
+
+            </ul>
+            <div class="navbar-nav justify-content-end">
+                <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
             </div>
+
+        </nav>
+
+        <div class="parallax d-flex justify-content-center">
+            <div class="d-flex flex-column">
+                <img id="logo" src="logo.png" alt="couldn't load file">
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2" id="title">Electryone</div>
+                <div class="p-2" id="subtitle">Battle Royale</div>
+            </div>
+
+
+
         </div>
-        <div class="row pl-0">
+        <div class="row p-2">
 
-            <div class="col-sm-12">
-                <img src="bg.png" />
+            <div class="col-sm-2">
             </div>
-
+            <div class="col-sm-8">
+                <h1>Play Electryone</h1>
+            </div>
+            <div class="col-sm-2"> </div>
         </div>
-        <div class="row pl-0">
+        <div class="row" style="height:1000px;font-size:36px">
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-8">
 
-            <div class="col-sm-3">
-                </div>
-            <div class="col-sm-6">
-                    <h1>Play Electryone</h1>
+                <p>Electryone is a Battle Royale set in space! That’s right! You can jump from planet to planet with
+                    your jetpack while collecting materials and upgrading your equipment. Experience destructible
+                    planets, the sun expanding and collapsing into a black hole.
+                    <br> <br> The game is all about being smarter than your opponents. By upgrading the right atributes
+                    of your weapon and by choosing the best Evolution that suits your personal playstyle you can easily
+                    outplay your opponents.<br> <br> Fight for your life, show your skills and be the last to survive.
+                </p>
             </div>
-            <div class="col-sm-3">
-                </div>
+            <div class="col-sm-2"> </div>
         </div>
-        <div class="row pl-0">
-                <div class="col-sm-3">
-                    </div>
-                <div class="col-sm-6">
-                    <p>Electryone is a Battle Royale set in space! That’s right! You can jump from planet to planet with your jetpack while collecting materials and upgrading your equipment. Experience destructible planets, the sun expanding and collapsing into a black hole.
-                    <br> <br> The game is all about being smarter than your opponents. By upgrading the right atributes of your weapon and by choosing the best Evolution that suits your personal playstyle you can easily outplay your opponents.<br> <br>  Fight for your life, show your skills and be the last to survive.</p>
-                </div>
-                <div class="col-sm-3">
-                    </div>
-    
-    
-            </div>
 
     </div>
+
 </body>
 
 </html>

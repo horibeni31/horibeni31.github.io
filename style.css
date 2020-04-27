@@ -1,50 +1,87 @@
-
-#logo{
-        width: 40px;
-        height: 40px;
+/*navigation bar*/
+nav{
+    position: sticky;
 }
-div{
-    background-color: #1b1b1b;
+.navbar,.container-fluid{
+    background-color: #0B0B0B;
 }
-
-#register{
- float: right;
+.nav-item:hover{
+    border-bottom: 4px solid #EDAB03;
 
 }
-img{
-
-    width: 100%;
+.nav-item{
+    border-bottom: 4px solid #0B0B0B;
 
 }
 a{
-font-family: Saira;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 38px;
-padding-bottom: 10px;
-text-align: center;
-color: white;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
 }
 a:hover{
-   color: #EDAB03;
-   border-bottom:  3px solid #EDAB03;
-    text-decoration: none;
-  
-}
-p,h1    {
-color: white;
 
+    color: #EDAB03;
 }
-p1{
-    
-font-family: Saira;
+/*body*/
+#logo{
+    height: 50%;
+}
+#title{
+color: #EDAB03;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 38px;
+font-weight: normal;
+font-size: 96px;
+text-align: center;
 }
-h1{
+#subtitle{
+    color: #EDAB03;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 76px;
+    text-align: center;
+    
+    color: #E2E2E2;
+    }
+.parallax {
+    /* The image used */
+    background-image: url('bg.png');
+  
+    /* Full height */
 
-    padding-bottom: 20px;
-}
+    height: 600px   ;
+    padding: 0;
+    margin: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+    
+      color: #FFFFFF;
+
+  }
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 76px;
+    text-align: left;
+    
+    color: #FFFFFF;
+  }
