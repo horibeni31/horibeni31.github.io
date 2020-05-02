@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Saira', sans-serif !important;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url('assets/bg.png');
+  
+    /* Full height */
+    height: 30vw;
+    padding: 0;
+    margin: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
