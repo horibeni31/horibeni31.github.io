@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="registerstyle.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="icon" href="assets/icon.ico">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow" style="padding: 0px;">
+        <a class="navbar-brand" href="#" style="margin-left: 20px; margin-top: 3px; padding: 0px;">
+            <img src="assets/logo.png" alt="Electryone" height="56px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Play</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ewes.html">EWES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="register" href="#">Register</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+                <button class="btn btn-outline-warning my-2 my-sm-0" id="registerBtn" type="submit">Register</button>
+            </form>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- BODY -->
+    <div class="jumbotron-fluid">
+        <div class="container d-flex justify-content-center" id="backgroundfield">
+            <form id="registerform">
+                <h1 class="textshadow">Make an Electryone account</h1>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text" required="required" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="text" required="required" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="text" required="required" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password-re">Password again</label>
+                    <input id="password-re" name="password-re" type="text" required="required" class="form-control">
+                </div>
+                <div class="form-group d-flex justify-content-center" style="margin-top: 50px;">
+                    <button name="submit" type="submit" class="btn btn-outline-warning buttonshadow" id="formbtn">Register</button>
+                </div>
+                <div style="margin-top: 100px;">
+                    <h4 style="margin-bottom: 20px;">Advantages of having an Electryone account</h4>
+                    <p class="lead">
+                        - You can play the game <br>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- BODY END -->
+
+    <!-- FOOTER -->
+    <div class="jumbotron-fluid text shadow" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="footerlink"><a href="index.html">Play</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="index.html#download">Download</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="about.html">About</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="#">Register</a></div>
+        </div>
+        <hr class="my-4" style="border: 1px solid white; width: 50%;">
+        <div class="container d-flex justify-content-center" style="padding: 0 !important;">
+            <div>
+                © 2020 Electryone, all rights reserved
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

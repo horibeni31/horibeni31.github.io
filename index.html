@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta http-equiv="X-UA-Compatible">
+  <link rel="icon" href="assets/icon.ico">
   <title>Electryone</title>
 </head>
 
@@ -20,7 +21,7 @@
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow" style="padding: 0px;">
-    <a class="navbar-brand" href="#" style="margin-left: 10px; margin-top: 3px; padding: 0px;">
+    <a class="navbar-brand" href="#" style="margin-left: 20px; margin-top: 3px; padding: 0px;">
       <img src="assets/logo.png" alt="Electryone" height="56px">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -28,20 +29,23 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height: 56px;">
-      <ul class="navbar-nav mr-auto" style="height: 58px;">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Play</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">EWES</a>
+          <a class="nav-link" href="ewes.html">EWES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="register" href="register.html">Register</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Register</button>
+        <button class="btn btn-outline-warning my-2 my-sm-0" id="registerBtn" type="button">Register</button>
       </form>
     </div>
   </nav>
@@ -51,7 +55,7 @@
   <!-- Parallax -->
   <div class="parallax d-flex justify-content-center ">
     <div class="d-flex flex-column align-self-center">
-      <img id="logo" src="assets/logo/logowtxt@2x.png" alt="couldn't load file" style="width: 40vw;">
+      <img id="logo" src="assets/logo/logowtxt@2x.png" alt="couldn't load file">
     </div>
   </div>
 
@@ -75,7 +79,11 @@
     </div>
   </div>
   <!-- Parallax 2-->
-  <div class="parallax2 d-flex justify-content-center"></div>
+  <div class="parallax2 d-flex justify-content-center">
+    <div class="d-flex flex-column align-self-center">
+      <h2>EXPERIENCE THE INTERPLANETARY BATTLE ROYALE</h2>
+    </div>
+  </div>
 
   <!-- EWES -->
   <div class="jumbotron-fluid text shadow">
@@ -87,6 +95,9 @@
         to choose and what attributes to spend your materials on, you can gain
         an edge over your opponents.
       </p>
+      <button class="btn btn-outline-warning">
+        Learn more
+      </button>
     </div>
   </div>
 
@@ -99,6 +110,7 @@
   </div>
 
   <!-- Download -->
+  <a href="download" id="download"></a>
   <div class="jumbotron-fluid text shadow">
     <div class="container">
       <h1>Play Electryone for Free!</h1>
@@ -120,13 +132,13 @@
   <!-- FOOTER --> 
   <div class="jumbotron-fluid text shadow" style="padding-top: 20px !important; padding-bottom: 20px !important;">
     <div class="d-flex flex-wrap justify-content-center">
-      <div class="footerlink"><a href="">Play</a></div>
+      <div class="footerlink"><a href="#">Play</a></div>
       <div class="footerseparator">|</div>
-      <div class="footerlink"><a href="">Download</a></div>
+      <div class="footerlink"><a href="#download">Download</a></div>
       <div class="footerseparator">|</div>
-      <div class="footerlink"><a href="">About</a></div>
+      <div class="footerlink"><a href="about.html">About</a></div>
       <div class="footerseparator">|</div>
-      <div class="footerlink"><a href="">Register</a></div>
+      <div class="footerlink"><a href="register.html">Register</a></div>
     </div>
     <hr class="my-4" style="border: 1px solid white; width: 50%;">
     <div class="container d-flex justify-content-center" style="padding: 0 !important;">

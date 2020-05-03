@@ -67,7 +67,7 @@ nav{
 .parallax2 {
     background-image: url('assets/city_bg.jpg');
 
-    height: 600px;
+    height: 400px;
     padding: 0;
     margin: 0;
 
@@ -123,7 +123,9 @@ nav{
     color: gray;
     text-decoration: none;
 }
-
+#logo{
+    width: 40vw;
+}
 
 /* Media Queries */
 @media (max-width: 576px) {
@@ -134,4 +136,40 @@ nav{
     .footerseparator{
         visibility: hidden;
     }
+}
+
+@media (max-width: 991px) {
+    /*navigation bar*/
+    .nav-item:hover{
+        border-bottom: 0px solid #EDAB03;
+    }
+    .nav-item:hover a{
+        color: #EDAB03 !important;
+    }
+    /*navigation bar end*/
+
+    a#register{
+        visibility: visible;
+    }
+    form{
+        visibility: hidden;
+    }
+    #logo{
+        width: 80vw !important;
+    }
+}
+@media (min-width: 991px) {
+    ul.navbar-nav{
+        height: 56px;
+    }
+    div.collapse{
+        height: 56px;
+    }
+    a#register{
+        display: none;
+    }
+    form{
+        visibility: visible;
+    }
+    
 }
