@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="registerstyle.css">
+    <link rel="stylesheet" href="downloadstyle.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">
 
@@ -14,7 +14,7 @@
 
     <meta http-equiv="X-UA-Compatible">
     <link rel="icon" href="assets/icon.ico">
-    <title>Register</title>
+    <title>Download</title>
 </head>
 
 <body>
@@ -52,38 +52,18 @@
     <!-- NAVBAR END -->
 
     <!-- BODY -->
-    <div class="jumbotron-fluid">
-        <div class="container d-flex justify-content-center" id="backgroundfield">
-            <form id="registerform">
-                <h1 class="textshadow">Make an Electryone account</h1>
-                <p id="errorMessage" class="text-danger">
-                </p>
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input id="username" name="username" type="text" required="required" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="text" required="required" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input id="password" name="password" type="text" required="required" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="password-re">Password again</label>
-                    <input id="password-re" name="password-re" type="text" required="required" class="form-control">
-                </div>
-                <div class="form-group d-flex justify-content-center" style="margin-top: 50px;">
-                    <button name="submit" type="submit" class="btn btn-outline-warning buttonshadow" id="formbtn" onclick="FormCheck()">Register</button>
-                </div>
-                <div style="margin-top: 100px;">
-                    <h4 style="margin-bottom: 20px;">Advantages of having an Electryone account</h4>
-                    <p class="lead">
-                        - You can play the game <br>
-                    </p>
-                </div>
-            </form>
+    <div class="jumbotron-fluid" style="height: 547px;">
+        <div class="container">
+            <h1 class="textshadow" id="successh1">Success!</h1>
+        </div>
+        <div class="container">
+            <h2>Now that you're in, download the launcher to start playing</h2> 
+        </div>
+        <div class="container d-flex justify-content-center">
+            <button class="buttonshadow align-self-center btn btn-outline-warning my-2 my-sm-0" type="submit"
+                style="height: 80px; width: 300px; font-size: 20pt;">
+                <span class="textshadow">Download</span>
+            </button>
         </div>
     </div>
     <!-- BODY END -->
@@ -108,7 +88,6 @@
     </div>
     <!-- FOOTER END -->
 
-    <script src="register.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
