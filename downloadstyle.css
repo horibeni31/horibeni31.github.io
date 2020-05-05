@@ -25,7 +25,7 @@ h1{
         font-size: 70px;
     } 
 }
-#successh1{
+.successh1{
     margin-bottom: 20px;
     color: #EDAB03;
     text-shadow: 1px 1px white !important;
