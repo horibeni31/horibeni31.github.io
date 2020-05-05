@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Saira', sans-serif !important;
+    color: white !important;
+    background-image: url(assets/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    color: white;
+}
+@media (max-width: 991px) {
+    h1{
+        font-size: 70px;
+    } 
+}
+#successh1{
+    margin-bottom: 20px;
+    color: #EDAB03;
+    text-shadow: 1px 1px white !important;
+}
+
+h2{
+    margin-top: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+h3{
+    margin-top: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+.text{
+    background-color: #0B0B0B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.buttonshadow{
+    box-shadow: 2px 2px #0000003d !important;
+}
+.textshadow{
+    text-shadow: 2px 2px #0000003d !important;
+}
+.textshadow2{
+    text-shadow: 1px 1px white !important;
+}
+
+a{
+    color: #EDAB03;
+    text-decoration: none;
+}
+a:hover{
+    color: #EDAB03;
+    text-decoration: underline 2px solid #EDAB03;
+}
+
+/*navigation bar*/
+nav{
+    position: sticky;
+}
+.navbar,.container-fluid{
+    background-color: #1B1B1B !important;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #EDAB03;
+    cursor: pointer;
+}
+.nav-item:hover a{
+    color: #EDAB03 !important;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+@media (max-width: 991px) {
+    .nav-item:hover{
+        border-bottom: 0px solid #EDAB03;
+    }
+    .nav-item:hover a{
+        color: #EDAB03 !important;
+    }
+
+    a#register{
+        visibility: visible;
+    }
+    form{
+        visibility: hidden;
+    }
+    #logo{
+        width: 80vw !important;
+    }
+}
+@media (min-width: 991px) {
+    ul.navbar-nav{
+        height: 56px;
+    }
+    div.collapse{
+        height: 56px;
+    }
+    a#register{
+        display: none;
+    }
+    form{
+        visibility: visible;
+    }
+    
+}
+/*navigation bar end*/
+
+/*footer*/
+.footerlink{
+    padding-left:30px;
+    padding-right: 30px;
+}
+.footerlink a{
+    color: white;
+    text-decoration: none;
+}
+.footerlink a:hover{
+    color: gray;
+    text-decoration: none;
+}
+@media (max-width: 576px) {
+    .footerlink{
+        width: 100%;
+        text-align: center;
+    }
+    .footerseparator{
+        visibility: hidden;
+    }
+}
+/*footer end*/
