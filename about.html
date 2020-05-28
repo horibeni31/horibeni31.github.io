@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="about.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="icon" href="assets/icon.ico">
+    <title>Electryone</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow" style="padding: 0px;">
+        <a class="navbar-brand" href="#" style="margin-left: 20px; margin-top: 3px; padding: 0px;">
+            <img src="assets/logo.png" alt="Electryone" height="56px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Play</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ewes.html">EWES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="register" href="register.html">Register</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+                <button class="btn btn-outline-warning my-2 my-sm-0" id="registerBtn" type="button">Register</button>
+            </form>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- BODY -->
+    <!-- Parallax -->
+    <div class="parallax d-flex justify-content-center ">
+        <div class="d-flex flex-column align-self-center">
+            <h2>ABOUT</h2>
+        </div>
+    </div>
+
+    <!-- About Electryone -->
+    <div class="jumbotron-fluid text shadow">
+        <div class="container">
+            <h1>About Electryone</h1>
+            <p class="lead">
+                Electryone is a programming project developed by four high school students.
+                The main idea behind the game was creating a battle royale which is set in space.
+                <br><br>
+                We wanted to create a game in which you can use newtonian physics to your advantage.
+                Unfortunately, using a game engine was not an option, thus we had to build the whole system from
+                scratch.
+                <br><br>
+                This page displays a lot of behind the scenes content about the game.
+            </p>
+        </div>
+    </div>
+    <!-- Parallax 2-->
+    <div class="parallax2 d-flex justify-content-center">
+        <div class="d-flex flex-column align-self-center">
+            <h2>3D MODELS</h2>
+        </div>
+    </div>
+
+    <!-- Guns -->
+    <div class="jumbotron-fluid text shadow">
+        <div class="container">
+            <h1>Guns</h1>
+            <p class="lead">
+                The guns in Electryone are closely tied to the rules of the EWES system. 
+                There are four kinds: smg, shotgun, rifle and a sniper. 
+                All modelling was done in Blender, an open source 3D software.
+            </p>
+        </div>
+    </div>
+
+    <!-- Parallax 3-->
+    <div class="parallax3 d-flex justify-content-center"></div>
+
+    <!-- Characters -->
+    <div class="jumbotron-fluid text shadow">
+        <div class="container">
+            <h1>Characters</h1>
+            <p class="lead">
+                Electryone currently has a female and a male character. 
+                The models were sculpted and textured in Blender, rigging was done with Adobe's free 3D
+                rigger software called Mixamo. The animations we're using are also from the Mixamo library.
+                Of course, if we had more time we would have created the animations by ourselves, but due to the lack of time
+                we had to turn to such measures. Fortunately, Mixamo's services are free to use under creative commons.
+            </p>
+        </div>
+        <div class="container" id="model_viewer_div">
+            <div class="sketchfab-embed-wrapper">
+                <iframe title="Electryone Female" id="model_iframe" src="https://sketchfab.com/models/88465e93265b4509b7c94cc46c627e01/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                    <a href="https://sketchfab.com/3d-models/electyone-female-88465e93265b4509b7c94cc46c627e01?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Electyone Female</a>
+                    by <a href="https://sketchfab.com/yertofex?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">yertofex</a>
+                    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                </p>
+            </div>            
+        </div>
+    </div>
+
+    <!-- Parallax 4-->
+    <div class="parallax4 d-flex justify-content-center">
+    </div>
+    <!-- BODY END -->
+
+
+    <!-- FOOTER -->
+    <div class="jumbotron-fluid text shadow" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="footerlink"><a href="#">Play</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="#download">Download</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="about.html">About</a></div>
+            <div class="footerseparator">|</div>
+            <div class="footerlink"><a href="register.html">Register</a></div>
+        </div>
+        <hr class="my-4" style="border: 1px solid white; width: 50%;">
+        <div class="container d-flex justify-content-center" style="padding: 0 !important;">
+            <div>
+                © 2020 Electryone, all rights reserved
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
